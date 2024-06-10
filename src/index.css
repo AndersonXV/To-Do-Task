@@ -11,9 +11,11 @@ body{
     background: blueviolet;
 }
  .wrapper{
-    width: 420px;
-    background: blue;
+    width: 450px;
+    background: transparent;
     color: #fff;
+    border-radius: 30px;
+    border: 2px solid
  }
   .wrapper h1{
     font-size: 36px;
@@ -26,3 +28,4 @@ body{
     font-size: 20px;
     margin-top: 20px;
   }
+
