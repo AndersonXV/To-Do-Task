@@ -4,18 +4,20 @@
 
 body{
     font-family: fantasy;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: blueviolet;
+    min-height: 100vh; */
+    background: url(./assets/wallpaperflare.com_wallpaper.jpg);
 }
  .wrapper{
     width: 450px;
     background: transparent;
     color: #fff;
-    border-radius: 30px;
-    border: 2px solid
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    
  }
   .wrapper h1{
     font-size: 36px;
@@ -28,4 +30,41 @@ body{
     font-size: 20px;
     margin-top: 20px;
   }
+  
+  .Atask {
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid  rgba(255, 255, 255, .2);
+    font-family: fantasy;
+    width: 450px;
+    color: aliceblue;
+    margin-top: 5vh;
+  }
 
+.Atask button {
+  margin-top: 5vh;
+  width: 100%;
+  font-size: 20px;
+}
+
+.uAdd {
+  border-radius: 10px;
+  background: transparent;
+  border: 2px solid  rgba(255, 255, 255, .2);
+  font-family: fantasy;
+  width: 450px;
+}
+
+.btn {
+  width: 100%;
+  font-size: 20px;
+}
+
+/* .tf {
+  font-family: fantasy;
+  font-size: 50px;
+} */
+
+.NV {
+  background: transparent;
+}

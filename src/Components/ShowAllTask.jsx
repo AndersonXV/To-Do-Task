@@ -37,8 +37,8 @@ const ShowAllTask = () => {
 
     return (
         <>
-            <p className="text-3xl text-white bg-black">Tasks found: {allTasks.length}</p>
-            <div className="grid grid-cols-4">
+            <p className="text-3xl text-white flex justify-center ">Tasks found: {allTasks.length}</p>
+            <div className="grid grid-cols-4 mt-6">
             {allTasks.map(task => {
                 return(
                     <ViewTask key={task._id} task={task} />

@@ -5,10 +5,13 @@ import ShowAllTask from './Components/ShowAllTask'
 import AddTask from './Components/AddTask'
 import UpdateTask from './Components/UpdateTask'
 import TaskNotFound from './Components/TaskNotFound'
+import NavBar from './Components/NavBar'
 function App() {
 
   return (
     <>
+    <NavBar/>
+    <div className='flex flex-row justify-center items-center min-h-screen'>
     <Routes>
       <Route path ="/" element={<Login />} />
       <Route path ="/add" element={<AddTask />} />
@@ -16,6 +19,7 @@ function App() {
       <Route path ="/update/:id" element={<UpdateTask />} />
       <Route path ="*" element={<TaskNotFound />} />
     </Routes>
+    </div>
     </>
   )
 }
