@@ -53,6 +53,7 @@ body{
   border: 2px solid  rgba(255, 255, 255, .2);
   font-family: fantasy;
   width: 450px;
+  color: #fff;
 }
 
 .btn {
@@ -67,4 +68,14 @@ body{
 
 .NV {
   background: transparent;
+}
+
+.UT {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.tdl {
+  color: #fff;
 }
