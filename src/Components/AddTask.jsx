@@ -62,7 +62,7 @@ const AddTask = () => {
     return (
         <>
             {!msg ? (
-                <div className="Atask">
+                <div className="Atask AAtask">
                     <p className="=text-x1  flex justify-center mb-5">Add A Task</p>
 
 
